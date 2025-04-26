@@ -12,9 +12,9 @@ return (
       
       <div className='flex flex-col sm:flex-row gap-10 items-center mr-12 '>
       <Link to={'/'} >       <h1 className='text-white text-lg font-medium hover:!text-secondary transition-colors duration-300'>Home</h1></Link>
+      <Link to={'./about'} > <h1  className='text-white text-lg font-medium hover:!text-secondary transition-colors duration-300'>About</h1></Link>
       <Link to={'/projects'}><h1 className='text-white text-lg font-medium hover:!text-secondary transition-colors duration-300'>Projects</h1></Link>
       <Link to={'/contact'} ><h1 className='text-white text-lg font-medium hover:!text-secondary transition-colors duration-300'>Contact</h1></Link>
-      <Link to={'/about'} > <h1  className='text-white text-lg font-medium hover:!text-secondary transition-colors duration-300'>About</h1></Link>
 
       </div>
     </div>
