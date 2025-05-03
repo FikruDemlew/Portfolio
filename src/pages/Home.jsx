@@ -38,7 +38,7 @@ const Home = () => {
           }
         });
       },
-      { threshold: 0.8 } // Trigger when 50% of the section is visible
+      { threshold: 0.5 } // Trigger when 50% of the section is visible
     );
 
     if (aboutSection) observer.observe(aboutSection);
@@ -103,6 +103,7 @@ const Home = () => {
       <div className="about-section">
       <About />
       </div>
+      <hr className="border border-b-cyan-800 w-[500px] mx-auto" />
       <div className="projects-section">
       <Projects />
       </div>

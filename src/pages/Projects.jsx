@@ -3,9 +3,9 @@ import Card from '../components/Card'
 
 const Projects = () => {
   return (
-    <div className='flex flex-col justify-center items-center gap-3 bg-background pb-50'>
+    <div className='flex flex-col justify-center items-center gap-9 bg-background py-50'>
       <h1 className='text-amber-50 text-5xl'>My Works</h1>
-      <p className='text-primary text-2xl'>A collection of projects I've worked on.</p>
+      <p className='text-primary text-2xl mb-10'>A collection of projects I've worked on.</p>
       <div className='flex flex-col md:flex-row gap-7 items-center justify-center '>
         <Card
         imgSrc='src\assets\youtube.png'

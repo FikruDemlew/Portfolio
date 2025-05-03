@@ -5,7 +5,7 @@ const Navbar = ({scrollTo}) => {
   
 
   return (
-    <div className="flex justify-between rounded-2xl border border-b-secondary p-4">
+    <div className="flex justify-between border border-b-secondary p-4 backdrop-blur-sm">
       <Link>
         <div className="flex sm:flex-row flex-col items-center mx-0 sm:mx-12 gap-2">
           <img
