@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-      <div className='shrink h-auto py-20 w-full bg-secondary mt-[300px]'>
+      <div className='shrink h-auto py-20 w-full bg-secondary'>
       <div className='sm:flex md:ml-30 justify-between items-start mx-2'>
         <div className='mx-auto'>
           <h1 className='text-2xl text-primary font-bold mb-7'>Fikiru Demlew</h1>

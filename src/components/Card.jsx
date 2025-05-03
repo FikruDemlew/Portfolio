@@ -1,16 +1,17 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({title, description, imgSrc}) => {
   return (
-    <div className='w-[900px] flex flex-col md:flex-row items-center gap-7 rounded-lg bg-slate-700/40 mt-10 mx-auto hover:scale-105 transition-scale duration-300'>
-    <div>
-        <img className='h-auto w-300' src='src\assets\youtube.png'/>
+  <div className="flex flex-col items-center justify-center rounded-lg">
+    <div className='w-100 h-150 p-4 flex flex-col items-start gap-7 rounded-3xl bg-slate-700/40 mt-10 mx-auto bg-linear-to-r from-background to-cyan-950 border border-amber-50'>
+        <img className='h-auto w-100 rounded-2xl hover:scale-105 transition-scale duration-300 mb-4' src={imgSrc}/>
+        <h1 className='text-amber-50 font-bold text-2xl'>{title}</h1>
+        <p className='text-amber-50'>{description}</p>
+        
     </div>
-    <div className=''>
-        <h1 className='text-amber-50 font-bold text-2xl mb-2'>Youtube</h1>
-        <p className='text-amber-50'>The goal of the project is to replicate the front-end functionality of a video-sharing platform, focusing on UI/UX design, responsive layouts, and efficient rendering of multimedia content. It is ideal for learning how to handle video content, structure a scalable interface, and implement basic client-side search.</p>
-        <button className='border border-secondary w-[100px] h-[35px] mt-5 cursor-pointer rounded-md'><p className='text-secondary font-bold my-0'>View</p></button>
-    </div>
+    <div className="relative">
+          <button className='absolute right-9 bottom-10 border border-secondary w-[100px] h-[35px] mt-5 cursor-pointer rounded-md '><p className='text-secondary font-bold my-0'>View</p></button>
+        </div>
     </div> 
   )
 }
