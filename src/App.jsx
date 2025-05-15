@@ -10,8 +10,8 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-    <div className='bg-linear-to-r from-background to-cyan-950'>
-    <BrowserRouter>
+    <div className='bg-white overflow-hidden'>
+        <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/projects' element={<Projects />}/>
@@ -21,6 +21,7 @@ function App() {
       <Footer />
     </BrowserRouter>
     </div>
+  
   )
 }
 
