@@ -33,8 +33,8 @@ const Home = () => {
           <a href="https://github.com/FikruDemlew" target="_blank" rel="noopener noreferrer">
             <img src="src\assets\github.png" alt="GitHub" />
           </a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-            <img src="src\assets\instagram.png" alt="Instagram" />
+          <a href="https:mailto:fikrudemlew@gmail.com" target="_blank" rel="noopener noreferrer">
+            <img src="src\assets\gmail.png" alt="Instagram" />
           </a>
           <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
             <img src="src\assets\twitter.png" alt="Twitter" />
@@ -56,7 +56,10 @@ const Home = () => {
         </div>
       </div>
       <div className="about-section">
-      <About />
+      <About scrollTo={scrollTo}/>
+      </div>
+      <div>
+        <img className="w-50 mx-auto mt-20" src="src\assets\down-point.png" alt="Down Chevron" />
       </div>
       <div className="projects-section">
       <Projects />

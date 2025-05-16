@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-      <div className='shrink h-auto py-20 w-full bg-secondary'>
+      <div className='contact-section shrink h-auto py-20 w-full bg-secondary'>
       <div className='sm:flex md:ml-30 justify-between items-start mx-2'>
         <div className='mx-auto'>
           <h1 className='text-2xl text-primary font-bold mb-7'>Fikiru Demlew</h1>
@@ -14,11 +14,11 @@ const Footer = () => {
         <div className='flex flex-col gap-5 mx-auto mt-10 md:mt-0'>
           <h1 className='text-primary text-xl font-bold'>Social</h1>
           <div className='flex flex-wrap gap-4'>
-            <Link className='h-[26px] w-[26px]'><img src="src\assets\linkedin.png"/></Link>
-            <Link className='h-[26px] w-[26px]'><img src="src\assets\telegram.png"/></Link>
-            <Link className='h-[26px] w-[26px]'><img src="src\assets\github.png"/></Link>
-            <Link className='h-[26px] w-[26px]'><img src="src\assets\instagram.png"/></Link>
-            <Link className='h-[26px] w-[26px]'><img src="src\assets\twitter.png"/></Link>
+            <a className='h-[26px] w-[26px]' href="https://www.linkedin.com/in/fikru-demlew-0a6955240" target="_blank" rel="noopener noreferrer"><img src="src\assets\linkedin.png"/></a>
+            <a className='h-[26px] w-[26px]' href="https://t.me/F_DNA19" target="_blank" rel="noopener noreferrer"><img src="src\assets\telegram.png"/></a>
+            <a className='h-[26px] w-[26px]' href="https://github.com/FikruDemlew" target="_blank" rel="noopener noreferrer"><img src="src\assets\github.png"/></a>
+            <a className='h-[26px] w-[26px]' href="https://mailto:fikrudemlew@gmail.com" target="_blank" rel="noopener noreferrer"><img src="src\assets\gmail.png"/></a>
+            <a className='h-[26px] w-[26px]' href="https://www.linkedin.com/in/fikru-demlew-0a6955240" target="_blank" rel="noopener noreferrer"><img src="src\assets\twitter.png"/></a>
           </div>
         </div>
       </div>

@@ -1,8 +1,8 @@
 import React from 'react'
 
-const About = () => {
+const About = ({scrollTo}) => {
   return (
-    <div className='flex flex-col justify-center gap-9 bg-background sm:py-40'>
+    <div className='flex flex-col justify-center gap-9 bg-background sm:py-20'>
       <div className='flex flex-col justify-center items-center mx-auto max-w-[750px] my-6'>
         <h1 className='text-primary text-3xl font-bold'>About Me</h1>
         <p className='text-gray-400 text-center my-3 text-[20px]'>Here you will find more information about me,
@@ -19,7 +19,7 @@ const About = () => {
               content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin and Instagram where I post useful content related 
               to Web Development and Programming. </p>
             <p>I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
-          <button className='border border-secondary w-[150px] h-[45px] mt-5 cursor-pointer rounded-md'><p className='text-secondary font-bold my-0'>Contact</p></button>
+          <button onClick={scrollTo} className='border border-secondary w-[150px] h-[45px] mt-5 cursor-pointer rounded-md'><p className='text-secondary font-bold my-0'>Contact</p></button>
           </div>
           
         </div>
