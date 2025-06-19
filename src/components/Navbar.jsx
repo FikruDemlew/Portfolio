@@ -32,7 +32,7 @@ const Navbar = ({ scrollTo }) => {
       <div
         className={`
           ${menuOpen ? 'flex' : 'hidden'}
-          flex-col gap-6 items-center absolute top-full right-0 bg-secondary p-6 rounded-b-lg shadow-lg z-50
+          flex-col gap-6 items-center  left-95 top-12 bg-secondary p-6 rounded-lg shadow-lg
           sm:static sm:flex sm:flex-row sm:gap-10 sm:bg-transparent sm:p-0 sm:rounded-none sm:shadow-none sm:items-center mr-12
         `}
       >
@@ -45,11 +45,12 @@ const Navbar = ({ scrollTo }) => {
         <button onClick={scrollTo} className="text-white text-lg font-medium hover:!text-primary transition-colors duration-300 cursor-pointer">
           Projects
         </button>
-        <Link to={'/contact'}>
-          <h1 className="text-white text-lg font-medium hover:!text-primary transition-colors duration-300">
+         <button onClick={scrollTo} className="text-white text-lg font-medium hover:!text-primary transition-colors duration-300 cursor-pointer">
+          Projects
+        </button>
+         <button onClick={scrollTo} className="text-white text-lg font-medium hover:!text-primary transition-colors duration-300 cursor-pointer">
             Contact
-          </h1>
-        </Link>
+          </button>
       </div>
     </div>
   );

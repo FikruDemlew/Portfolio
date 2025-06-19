@@ -19,7 +19,7 @@ const Home = () => {
     };
   return (
     <div className="w-full bg-background">
-      <div className="fixed top-0 left-0 w-full transition-transform duration-500">
+      <div className="sm:fixed top-0 left-0 w-full transition-transform duration-500">
         <Navbar scrollTo={scrollTo} />
       </div>
       <div id="" className="home-section h-lvh flex flex-col md:flex-row justify-start items-center bg-linear-to-t from-background to-cyan-950">
