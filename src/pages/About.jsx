@@ -27,11 +27,11 @@ const About = ({scrollTo}) => {
           <h1 className='text-primary text-3xl font-bold my-6 '>My skills</h1>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-8 justify-center rounded-b-md hover:drop-shadow-[0_15px_35px_rgba(0,185,255,0.4)] transition-drop-shadow duration-300">
             <div className='flex flex-col items-center w-[80px]'>
-              <img src='\public/assets/html.png'/>
+              <img src='/assets/html.png'/>
               <p className='text-primary'>Html</p>
             </div>
             <div className='flex flex-col items-center w-[80px]'>
-              <img src='\public/assets/text.png'/>
+              <img src='/assets/text.png'/>
               <p className='text-primary'>Css</p>
             </div>
             <div className='flex flex-col items-center w-[80px]'>

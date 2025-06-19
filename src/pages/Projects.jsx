@@ -9,12 +9,12 @@ const Projects = () => {
       <div className='flex flex-col md:flex-row gap-7 items-center justify-center '>
         <Card
         webLink="https://youtubeclone1994.netlify.app/"
-        imgSrc='/assets/\youtube.png'
+        imgSrc='/assets/youtube.png'
           title = "Youtube" 
           description = "The goal of the project is to replicate the front-end functionality of a video-sharing platform, focusing on UI/UX design, responsive layouts, and efficient rendering of multimedia content. It is ideal for learning how to handle video content, structure a scalable interface, and implement basic client-side search"/>
         <Card 
         webLink="https://cinesphere-one.vercel.app/"
-        imgSrc='/assets/\movie.png'
+        imgSrc='/assets/movie.png'
         title="CineSphere"
         description="Design a modern and responsive movie website that showcases the latest films, trailers, reviews, and showtimes. Include sections for featured movies, user ratings, upcoming releases, and a searchable movie database. The site should have a sleek UI and support for user accounts to save favorites and write reviews."/>
         <Card 
