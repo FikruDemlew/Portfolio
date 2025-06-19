@@ -35,23 +35,23 @@ const About = ({scrollTo}) => {
               <p className='text-primary'>Css</p>
             </div>
             <div className='flex flex-col items-center w-[80px]'>
-              <img src='/public/assets/js.png'/>
+              <img src='/assets/js.png'/>
               <p className='text-primary'>Javascript</p>
             </div>
             <div className='flex flex-col items-center w-[80px]'>
-              <img src='/public/assets/physics.png'/>
+              <img src='/assets/physics.png'/>
               <p className='text-primary'>React</p>
             </div>
             <div className='flex flex-col items-center w-[80px]'>
-              <img src='/public/assets/social.png'/>
+              <img src='/assets/social.png'/>
               <p className='text-primary'>git</p>
             </div>
             <div className='flex flex-col items-center w-[80px]'>
-              <img src='/public/assets/github.png'/>
+              <img src='/assets/github.png'/>
               <p className='text-primary'>Github</p>
             </div>
             <div className='flex flex-col items-center w-[80px]'>
-              <img src='/public/assets/node-js.png'/>
+              <img src='/assets/node-js.png'/>
               <p className='text-primary'>Node</p>
             </div>
           </div>
