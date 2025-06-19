@@ -27,31 +27,31 @@ const About = ({scrollTo}) => {
           <h1 className='text-primary text-3xl font-bold my-6 '>My skills</h1>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-8 justify-center rounded-b-md hover:drop-shadow-[0_15px_35px_rgba(0,185,255,0.4)] transition-drop-shadow duration-300">
             <div className='flex flex-col items-center w-[80px]'>
-              <img src='\src/assets/html.png'/>
+              <img src='\public/assets/html.png'/>
               <p className='text-primary'>Html</p>
             </div>
             <div className='flex flex-col items-center w-[80px]'>
-              <img src='\src/assets/text.png'/>
+              <img src='\public/assets/text.png'/>
               <p className='text-primary'>Css</p>
             </div>
             <div className='flex flex-col items-center w-[80px]'>
-              <img src='\src/assets/js.png'/>
+              <img src='/public/assets/js.png'/>
               <p className='text-primary'>Javascript</p>
             </div>
             <div className='flex flex-col items-center w-[80px]'>
-              <img src='\src/assets/physics.png'/>
+              <img src='/public/assets/physics.png'/>
               <p className='text-primary'>React</p>
             </div>
             <div className='flex flex-col items-center w-[80px]'>
-              <img src='\src/assets/social.png'/>
+              <img src='/public/assets/social.png'/>
               <p className='text-primary'>git</p>
             </div>
             <div className='flex flex-col items-center w-[80px]'>
-              <img src='\src/assets/github.png'/>
+              <img src='/public/assets/github.png'/>
               <p className='text-primary'>Github</p>
             </div>
             <div className='flex flex-col items-center w-[80px]'>
-              <img src='\src/assets/node-js.png'/>
+              <img src='/public/assets/node-js.png'/>
               <p className='text-primary'>Node</p>
             </div>
           </div>
