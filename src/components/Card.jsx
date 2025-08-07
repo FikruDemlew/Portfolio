@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
 
+const isClicked = false
+
 const Card = ({ title, description, imgSrc, webLink }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleImageClick = () => {
     setIsModalOpen(!isModalOpen);
   };
+
+  const handleLinkClick = () => {
+    isClicked = true
+  }
 
   return (
     <div className="flex flex-col items-center justify-center rounded-lg">
@@ -20,9 +26,10 @@ const Card = ({ title, description, imgSrc, webLink }) => {
         <p className="text-primary">{description}</p>
       </div>
       <div className="relative">
-        <button className="absolute right-9 bottom-10 border border-secondary w-[100px] h-[35px] mt-5 cursor-pointer rounded-md">
-          <a href={webLink} className="text-secondary font-bold my-0">View</a>
-        </button>
+          <a href={webLink} className='text-secondary font-bold my-0 hover:text-amber-50'>
+            <button onClick={handleLinkClick} className="absolute right-9 bottom-10 border border-secondary w-[100px] h-[35px] mt-5 cursor-pointer rounded-md hover:bg-secondary">View</button>
+          </a>
+
       </div>
 
       {/* Modal */}
