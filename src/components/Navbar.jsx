@@ -9,7 +9,7 @@ const Navbar = ({ scrollTo }) => {
       <Link>
         <div className="flex sm:flex-row flex-col items-center mx-0 sm:mx-12 gap-2">
           <img
-            src="/assets/profile2.jpg"
+            src="/assets/profile-icon.webp"
             className="w-14 h-14 rounded-full "
             alt="Profile"
           />

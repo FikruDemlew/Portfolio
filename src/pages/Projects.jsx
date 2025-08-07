@@ -18,7 +18,7 @@ const Projects = () => {
         title="CineSphere"
         description="Design a modern and responsive movie website that showcases the latest films, trailers, reviews, and showtimes. Include sections for featured movies, user ratings, upcoming releases, and a searchable movie database. The site should have a sleek UI and support for user accounts to save favorites and write reviews."/>
         <Card 
-        webLink="https://portfolio-fd321.netlify.app/"
+        webLink="https://fikrudemlew.vercel.app/"
         imgSrc='/assets/portfolio.png'
         title="Portfolio"
         description="Create a clean, professional, and responsive portfolio website to showcase my personal projects, skills, resume, and contact information. The site should include a homepage with a short introduction, a projects section with images and descriptions, an about page with my background and skills, and a contact form. Use modern design elements, smooth scrolling, and subtle animations to enhance user experience"/>

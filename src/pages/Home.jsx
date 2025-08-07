@@ -40,7 +40,7 @@ const Home = () => {
             <img src="/assets/twitter.png" alt="Twitter" />
           </a>
         </div>
-        <div className="w-auto shrink text-center mt-60 md:mt-[250px] md:w-[950px] mx-auto xl:ml-[420px] flex flex-col items-center gap-10">
+        <div className="w-auto shrink text-center mt-60 md:mt-[250px] md:w-[950px] mx-auto xl:ml-[300px] flex flex-col items-center gap-10">
           <h1 className="md:text-7xl text-5xl font-bold text-white drop-shadow-[0_15px_35px_rgba(0,185,255,0.4)]">
             Hey, I'm Fikiru Demlew
           </h1>
@@ -52,15 +52,13 @@ const Home = () => {
             <button onClick={scrollTo} className="cursor-pointer bg-secondary w-60 h-15 py-2 rounded-md transition delay-150 ease-in-out hover:-translate-y-1">
               <h3 className="text-[20px] text-primary font-sans m-0">PROJECTS</h3>
             </button>
-            <img className="mx-auto animate-bounce mt-20 sm:mt-70" src="/assets/down-chevron.png" alt="Down Chevron" />
+            <img className="mx-auto animate-bounce mt-20" src="/assets/down-chevron.png" alt="Down Chevron" />
         </div>
       </div>
       <div className="about-section">
       <About scrollTo={scrollTo}/>
       </div>
-      <div>
-        <img className="w-50 mx-auto mt-20" src="/assets/down-point.png" alt="Down Chevron" />
-      </div>
+     
       <div className="projects-section">
       <Projects />
       </div>
