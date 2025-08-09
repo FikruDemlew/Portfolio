@@ -40,7 +40,7 @@ const Home = () => {
             <img src="/assets/twitter.png" alt="Twitter" />
           </a>
         </div>
-        <div className="w-auto shrink text-center mt-60 md:mt-[250px] md:w-[950px] mx-auto xl:ml-[300px] flex flex-col items-center gap-10">
+        <div className="w-auto shrink text-center mt-60 md:mt-[250px] md:w-[950px] mx-auto xl:ml-[420px] flex flex-col items-center gap-10">
           <h1 className="md:text-7xl text-5xl font-bold text-white drop-shadow-[0_15px_35px_rgba(0,185,255,0.4)]">
             Hey, I'm Fikiru Demlew
           </h1>

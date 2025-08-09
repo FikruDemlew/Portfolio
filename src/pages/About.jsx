@@ -11,7 +11,7 @@ const About = ({scrollTo}) => {
       </div>
 
       <div className='flex flex-col md:flex-row md:gap-30 justify-center gap-10 items-center sm:px-10'>
-        <div className='w-[300px] sm:w-[400px] md:w-[600px]'>
+        <div className='w-[390px] md:w-[600px]'>
           <h1 className='text-primary text-3xl font-bold my-5'>Get to know me!</h1>
           <div className=' text-gray-400 text-start tracking-wide text-[20px] flex flex-col gap-2'>
             <p>I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.</p>
