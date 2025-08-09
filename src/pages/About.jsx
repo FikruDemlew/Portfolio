@@ -19,7 +19,7 @@ const About = ({scrollTo}) => {
               content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin and Instagram where I post useful content related 
               to Web Development and Programming. </p>
             <p>I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
-          <button onClick={scrollTo} className='border border-secondary w-[150px] h-[45px] mt-5 cursor-pointer rounded-md'><p className='text-secondary font-bold my-0'>Contact</p></button>
+          <button onClick={scrollTo} className='border border-secondary w-[150px] h-[45px] mt-5 cursor-pointer rounded-md hover:bg-secondary hover:text-white'><p className='text-secondary font-bold my-0'>Contact</p></button>
           </div>
           
         </div>
