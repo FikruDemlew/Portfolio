@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: rgb(241 245 249);
+  --color-secondary: oklch(0.78 0.14 195);
+  --color-accent: oklch(0.78 0.14 195);
+  --color-background: rgb(2 6 23);
+  --color-surface: rgb(15 23 42);
+  --color-surface-elevated: rgb(30 41 59);
+  --color-muted: rgb(148 163 184);
+  --color-border: rgb(51 65 85);
+  --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-body: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-primary antialiased;
+    font-family: var(--font-body);
+  }
+
+  ::selection {
+    @apply bg-secondary/30 text-white;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-linear-to-r from-cyan-300 via-teal-300 to-emerald-300 bg-clip-text text-transparent;
+  }
+
+  .glass-panel {
+    @apply border border-white/10 bg-surface/60 backdrop-blur-xl;
+  }
+
+  .section-fade-in {
+    animation: fade-in-up 0.7s ease-out both;
+  }
+
+  .hero-grid {
+    background-image:
+      linear-gradient(to right, rgb(51 65 85 / 0.15) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(51 65 85 / 0.15) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+
+  .glow-orb {
+    background: radial-gradient(
+      circle,
+      oklch(0.75 0.14 195 / 0.18) 0%,
+      transparent 65%
+    );
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .section-fade-in {
+    animation: none;
+  }
+}
