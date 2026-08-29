@@ -5,7 +5,7 @@
  * Supported formats can be added to the `formats` array below.
  */
 export const resume = {
-  fileName: 'Fikiru_Demlew_Cv.pdf',
+  fileName: 'Fikiru_Demlew_CV.pdf',
   displayName: 'Fikiru Demlew — CV',
   pdfPath: '/cv/fikiru_demlew_cv.pdf',
   formats: [
