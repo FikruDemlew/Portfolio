@@ -1,9 +1,4 @@
-/**
- * CV / Resume configuration
- *
- * Place your PDF at: public/cv/fikiru-demlew-cv.pdf
- * Supported formats can be added to the `formats` array below.
- */
+
 export const resume = {
   fileName: 'Fikiru_Demlew_CV.pdf',
   displayName: 'Fikiru Demlew — CV',
