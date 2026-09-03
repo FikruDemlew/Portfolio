@@ -28,7 +28,7 @@ const Projects = () => {
           id="projects-heading"
           eyebrow="Portfolio"
           title="My Works"
-          description="A collection of projects I've worked on."
+          description="A collection of my personal and fun side projects."
         />
 
         <div className="mx-auto flex max-w-3xl items-center gap-2 sm:gap-5">
