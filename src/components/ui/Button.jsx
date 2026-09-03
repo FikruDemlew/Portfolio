@@ -1,6 +1,6 @@
 const variants = {
   primary:
-    'bg-secondary text-slate-950 hover:bg-cyan-300 focus-visible:ring-secondary',
+    'bg-secondary text-slate-950 hover:bg-white focus-visible:ring-secondary',
   secondary:
     'border border-secondary/60 text-secondary hover:bg-secondary/10 focus-visible:ring-secondary',
   ghost:

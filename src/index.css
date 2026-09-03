@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: rgb(241 245 249);
-  --color-secondary: oklch(0.78 0.14 195);
-  --color-accent: oklch(0.78 0.14 195);
-  --color-background: rgb(2 6 23);
-  --color-surface: rgb(15 23 42);
-  --color-surface-elevated: rgb(30 41 59);
-  --color-muted: rgb(148 163 184);
-  --color-border: rgb(51 65 85);
+  --color-primary: rgb(245 245 245);
+  --color-secondary: rgb(226 232 240);
+  --color-accent: rgb(226 232 240);
+  --color-background: rgb(5 5 7);
+  --color-surface: rgb(17 17 20);
+  --color-surface-elevated: rgb(28 28 32);
+  --color-muted: rgb(148 148 156);
+  --color-border: rgb(63 63 70);
   --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
   --font-body: "Plus Jakarta Sans", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
@@ -31,7 +31,7 @@
 
 @layer utilities {
   .text-gradient {
-    @apply bg-linear-to-r from-cyan-300 via-teal-300 to-emerald-300 bg-clip-text text-transparent;
+    @apply bg-linear-to-r from-white via-zinc-400 to-white bg-clip-text text-transparent;
   }
 
   .glass-panel {
@@ -42,17 +42,21 @@
     animation: fade-in-up 0.7s ease-out both;
   }
 
+  .project-slide-enter {
+    animation: project-slide-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
   .hero-grid {
     background-image:
-      linear-gradient(to right, rgb(51 65 85 / 0.15) 1px, transparent 1px),
-      linear-gradient(to bottom, rgb(51 65 85 / 0.15) 1px, transparent 1px);
+      linear-gradient(to right, rgb(255 255 255 / 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.08) 1px, transparent 1px);
     background-size: 48px 48px;
   }
 
   .glow-orb {
     background: radial-gradient(
       circle,
-      oklch(0.75 0.14 195 / 0.18) 0%,
+      rgb(255 255 255 / 0.12) 0%,
       transparent 65%
     );
   }
@@ -69,12 +73,27 @@
   }
 }
 
+@keyframes project-slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(22px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
 
   .section-fade-in {
+    animation: none;
+  }
+
+  .project-slide-enter {
     animation: none;
   }
 }

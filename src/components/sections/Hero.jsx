@@ -63,10 +63,10 @@ const Hero = () => {
           <div className="section-fade-in flex flex-col items-center gap-8 lg:items-end">
             <div className="relative">
               <div
-                className="absolute -inset-4 rounded-full bg-linear-to-br from-secondary/20 to-cyan-500/5 blur-2xl"
+                className="absolute -inset-4 rounded-full bg-linear-to-br from-secondary/15 to-white/5 blur-2xl"
                 aria-hidden="true"
               />
-              <div className="relative rounded-full bg-linear-to-br from-secondary/20 via-transparent to-cyan-900/30 p-1.5">
+              <div className="relative rounded-full bg-linear-to-br from-secondary/20 via-transparent to-zinc-700/30 p-1.5">
                 <ProfileAvatar size="lg" />
               </div>
             </div>

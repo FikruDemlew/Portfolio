@@ -1,7 +1,11 @@
 export const skillCategories = [
   {
-    title: 'Frontend',
-    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS', 'Responsive UI'],
+    title: 'Full-Stack Development',
+    skills: ['JavaScript','TypeScript', 'React', 'Python', 'Django', 'Vue', 'Tailwind CSS', 'Responsive UI',],
+  },
+  {
+    title: 'Ml & AI',
+    skills: ['Python', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'Keras', 'Pandas', 'NumPy'],
   },
   {
     title: 'Tools & Workflow',
@@ -17,7 +21,17 @@ export const skillBadges = [
   'HTML',
   'CSS',
   'JavaScript',
+  'TypeScript',
   'React',
+  'python',
+  'Django',
+  'vue',
+  'Angular',
+  'Tailwind CSS',
+  'Figma',
+  'Responsive UI',
+  'REST APIs',
+  'Vite',
   'Git',
   'GitHub',
   'Node.js',

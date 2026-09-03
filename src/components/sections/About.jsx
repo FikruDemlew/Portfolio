@@ -35,9 +35,9 @@ const About = () => {
 
           <div className="grid gap-4 sm:grid-cols-2">
             {[
-              { label: 'Focus', value: 'Frontend Development' },
+              { label: 'Focus', value: 'Full-stack development' },
               { label: 'Approach', value: 'Result-oriented delivery' },
-              { label: 'Strength', value: 'Responsive UI & UX' },
+              { label: 'Strength', value: 'Teamwork, collaboration, and communication' },
               { label: 'Status', value: 'Open to opportunities' },
             ].map((item) => (
               <div key={item.label} className="glass-panel rounded-xl p-5">

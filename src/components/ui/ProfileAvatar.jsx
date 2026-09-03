@@ -14,7 +14,7 @@ const ProfileAvatar = ({ size = 'lg', className = '' }) => {
   if (hasError) {
     return (
       <div
-        className={`flex items-center justify-center rounded-full bg-linear-to-br from-secondary/30 to-cyan-900/40 font-bold text-white ring-2 ring-secondary/40 ${sizeClasses} ${className}`}
+        className={`flex items-center justify-center rounded-full bg-linear-to-br from-secondary/30 to-zinc-800/60 font-bold text-white ring-2 ring-secondary/40 ${sizeClasses} ${className}`}
         aria-hidden="true"
       >
         {profile.initials}

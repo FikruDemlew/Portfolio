@@ -69,9 +69,7 @@ const Resume = () => {
               </Button>
             </div>
 
-            <p className="mt-6 text-sm leading-relaxed text-muted">
-              Place your CV at <code className="rounded bg-surface-elevated px-1.5 py-0.5 font-mono text-secondary">public/cv/fikiru-demlew-cv.pdf</code> to enable preview and download.
-            </p>
+
           </div>
 
           <div className="glass-panel overflow-hidden rounded-2xl">

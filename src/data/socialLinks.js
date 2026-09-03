@@ -12,7 +12,7 @@ export const socialLinks = [
   {
     id: 'telegram',
     label: 'Telegram',
-    href: 'https://t.me/F_DNA19',
+    href: 'https://t.me/FikrDNA',
   },
   {
     id: 'email',
